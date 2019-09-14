@@ -1,10 +1,10 @@
 {
-  "name": "app name",
+  "name": "app_name",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch style:css"
+    "sass": "sass --watch src/sass:src/css"
   },
   "keywords": [],
   "author": "",

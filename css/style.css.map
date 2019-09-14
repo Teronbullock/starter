@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA;;uCAEuC;ACFvC;;uCAEuC;AAGvC;;uCAEuC;ACPvC;;uCAEuC;ACFvC;;uCAEuC;AAEvC,CAAE;EACA,UAAU,EAAE,UAAU;;ACLxB;;uCAEuC;ACFvC;;uCAEuC;ACFvC;;uCAEuC;ACFvC;;uCAEuC",
-"sources": ["../style/1-helpers/_variables.scss","../style/1-helpers/_mixins.scss","../style/1-helpers/_functions.scss","../style/2-base/_global.scss","../style/3-layout/_main.scss","../style/3-layout/_header.scss","../style/4-module/_form.scss","../style/4-module/_card.scss"],
-"names": [],
-"file": "style.css"
-}
