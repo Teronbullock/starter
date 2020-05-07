@@ -2,42 +2,33 @@
   Mixins
 ==================================== */
 
-
 /* ================================= 
   Media Queries
 ==================================== */
-
 @mixin mq($break) {
   @if $break == 'xs' {
-    @media (max-width: $break-xs){
+    @media (max-width: $break-xs) {
       @content;
     }
-  } 
-  @else if $break == 'sm' {
-    @media (min-width: $break-sm){
+  } @else if $break == 'sm' {
+    @media (min-width: $break-sm) {
       @content;
-    }  
-  }
-  @else if $break == 'm' {
-    @media (min-width: $break-m){
+    }
+  } @else if $break == 'm' {
+    @media (min-width: $break-m) {
       @content;
-    }  
-  }
-  @else if $break == 'l' {
-    @media (min-width: $break-l){
+    }
+  } @else if $break == 'l' {
+    @media (min-width: $break-l) {
       @content;
-    }  
-  }
-  @else if $break == 'xl' {
-    @media (min-width: $break-xl){
+    }
+  } @else if $break == 'xl' {
+    @media (min-width: $break-xl) {
       @content;
-    }  
-  }
-  @else if $break == 'ret' {
-    @media (min-width: $break-ret){
+    }
+  } @else if $break == 'ret' {
+    @media (min-width: $break-ret) {
       @content;
-    }  
+    }
   }
-
-
 }
